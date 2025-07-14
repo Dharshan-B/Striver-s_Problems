@@ -11,6 +11,7 @@ public class Count_Digits{
           count++;
           }
       System.out.print(count);
+//1st commit
     }
   }
 }
