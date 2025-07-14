@@ -1,0 +1,6 @@
+1.Hash based storing (Hash table/Hash Map)
+2.Tree_Based storing(TreeSet / TreeMap)
+3.Array Based storing (array - fixed, ArrayList - Dynamic size)
+4.Linked List based storing
+5.Graph-Based storing
+6.Matrix-Based storing
