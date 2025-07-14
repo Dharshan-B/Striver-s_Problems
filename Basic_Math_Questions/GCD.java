@@ -3,10 +3,10 @@
 //The brute force is not recommended for this kind of problems 
 public class GCD {
   public static int Gvd(int a,int b){
-    while(b!=0){
-      int temp = b;
-      b = a%b;
-      a=temp;
+    while(b!=0){//b=13
+      int temp = b;//temp = 13
+      b = a%b;//b = 12
+      a=temp;//a=13 as temp is assigned with b at first 
     }
     return a;
   }
