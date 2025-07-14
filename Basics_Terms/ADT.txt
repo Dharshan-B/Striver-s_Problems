@@ -1,0 +1,37 @@
+💡 What is an Abstract Data Type (ADT)?
+An Abstract Data Type (ADT) is a model or concept for a data structure, independent of its implementation.
+
+✅ Definition:
+An ADT is a logical description of how data is organized and what operations are allowed on it, without specifying how it is implemented.
+
+| ADT       | Basic Operations                                | Real Implementations            |
+| --------- | ----------------------------------------------- | ------------------------------- |
+| **List**  | Add, Remove, Search, Get(i), Set(i, val)        | ArrayList, LinkedList           |
+| **Stack** | `push()`, `pop()`, `peek()`, `isEmpty()`        | Stack (Java), Array, LinkedList |
+| **Queue** | `enqueue()`, `dequeue()`, `peek()`, `isEmpty()` | LinkedList, Queue, Deque        |
+| **Deque** | Insert/remove from both ends                    | ArrayDeque, LinkedList          |
+| **Set**   | Add, Remove, Contains                           | HashSet, TreeSet                |
+| **Map**   | Put (key, value), Get(key), Remove(key)         | HashMap, TreeMap                |
+
+
+⚙️ ADT vs Data Structure
+| Aspect             | ADT               | Data Structure                  |
+| ------------------ | ----------------- | ------------------------------- |
+| What it is         | Concept/Blueprint | Physical Implementation         |
+| Focus              | What it does      | How it works                    |
+| Example            | Stack             | Array-based stack, Linked stack |
+| Language Specific? | ❌ No              | ✅ Yes (e.g., Java classes)      |
+
+✅ Example
+Stack ADT (abstract view):
+LIFO behavior (Last In, First Out)
+push, pop, peek
+
+Implementations:
+Array-based: int[] stack
+Linked list-based: Node class 
+Java’s Stack<Integer> class
+
+
+💬 In Simple Terms:
+ADT is what it does, not how it does it.
