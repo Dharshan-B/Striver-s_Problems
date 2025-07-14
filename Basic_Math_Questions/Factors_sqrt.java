@@ -1,4 +1,3 @@
-import java.util.*;
 public class Factors_sqrt {
   public static void factor(int a){
     int a1 = (int)Math.sqrt(a);//Converting the Double(As Math.sqrt() support only the double) to int
