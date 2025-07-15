@@ -1,0 +1,23 @@
+//This is an intro for Recursion Syntax
+Recursion is a programming technique where a function calls itself to solve smaller subproblems of a larger problem.
+🧾 Structure of a Recursive Function:
+Base Case: the stopping condition (prevents infinite calls)
+
+Recursive Case: where the function calls itself with a reduced problem
+ 
+//Syntax Structure 
+returnType functionName(parameters) {
+    // Base Case (Stopping condition)
+    if (base condition is met) {
+        return some value; // or just return;
+    }
+
+    // Optional: Do something before recursion (pre-recursion)
+
+    // Recursive Call
+    functionName(modified parameters);
+
+    // Optional: Do something after recursion (post-recursion)
+}
+
+
