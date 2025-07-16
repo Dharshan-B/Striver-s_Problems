@@ -1,4 +1,4 @@
-package Basic_Recursion;
+
 
 public class RecursTree {
   static void func(int i , int n){

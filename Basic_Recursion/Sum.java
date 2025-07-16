@@ -1,4 +1,4 @@
-package Basic_Recursion;
+
 //Finding the sum for the natural numbers
 public class Sum {
   static int find_sum(int n){

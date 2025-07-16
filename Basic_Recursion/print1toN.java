@@ -1,5 +1,3 @@
-package Basic_Recursion;
-
 public class print1toN {
   static void print(int n , int i){
     //Base Condition
@@ -14,3 +12,4 @@ public class print1toN {
     print(1,n);
   }
 }
+
