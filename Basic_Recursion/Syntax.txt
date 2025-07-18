@@ -5,7 +5,7 @@ Base Case: the stopping condition (prevents infinite calls)
 
 Recursive Case: where the function calls itself with a reduced problem
  
-//Syntax Structure 
+//Syntax Structure (Correct)
 returnType functionName(parameters) {
     // Base Case (Stopping condition)
     if (base condition is met) {
