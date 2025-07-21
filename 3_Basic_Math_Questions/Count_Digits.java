@@ -1,3 +1,4 @@
+//Works for all the edge test cases 
 public class Count_Digits{
   public static void main(String[] args){
     int a = -1234;
